@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#226498">
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/fb"></ImageView>
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="275dp"
+        android:layout_marginBottom="311dp"
+        android:src="@drawable/profpic"></ImageView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="218dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/img1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="363dp"
+        android:layout_toRightOf="@drawable/profpic"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Abhishek"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="292dp"
+        android:text="Keep me signed in"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="77dp"
+        android:text="LOGIN TO ANOTHER ACCOUNT"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+
